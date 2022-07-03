@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>crud dashboard</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!----css3---->
+        <link rel="stylesheet" href="css/custom.css">
+		
+		
+		<!--google fonts -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	
+	
+	   <!--google material icon-->
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+
+  </head>
+  <body>
+  
+
+
+<div class="wrapper">
+     
+	  <div class="body-overlay"></div>
+	 
+	 <!-------sidebar--design------------>
+	 
+	 <div id="sidebar">
+	    <div class="sidebar-header">
+		   <h3><img src="img/images.jpg" class="img-fluid"/><span>School Space</span></h3>
+		</div>
+		<ul class="dropdown">
+			<li class="dropdown">
+				<a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false">
+				<i class="material-icons">equalizer</i>dashboard
+				</a>
+				</li>
+		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" >
+		  <i class="material-icons">aspect_ratio</i>Courses
+		  </a>
+		  </li>
+		  
+		  <li class="active">
+			<a href="#" class="dashboard"><i class="material-icons"></i>Students </a>
+			</li>
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false">
+		  <i class="material-icons">equalizer</i>Exams
+		  </a>
+		  </li>
+		  
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" 
+		>
+		  <i class="material-icons">extension</i>Results
+		  </a>
+		  </li>
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" 
+		>
+		  <i class="material-icons">border_color</i>Notice Board
+		  </a>
+		  </li>
+		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" 
+		>
+		  <i class="material-icons">grid_on</i>Live Classes
+		  </a>
+		  </li>
+		  
+		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu7" data-toggle="collapse" aria-expanded="false" 
+		>
+		  <i class="material-icons">content_copy</i>notification
+		  </a>
+		  </li>
+		
+		
+		</ul>
+	 </div>
+	 
+   <!-------sidebar--design- close----------->
+   
+		  
+		   <!------main-content-start-----------> 
+		     
+		      <div class="main-content">
+			     <div class="row">
+				    <div class="col-md-12">
+					
+					   <div class="table-wrapper">
+					   <div class="table-title">
+					     <div class="row">
+						     <div class="col-sm-6 p-0 flex justify-content-lg-start justify-content-center">
+							    <h2 class="ml-lg-2">Students</h2>
+							 </div>
+							 <div class="col-sm-6 p-0 flex justify-content-lg-end justify-content-center">
+							
+							   <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal">
+							   <i class="material-icons">&#xE147;</i>
+							   <span>Add</span>
+							   </a>
+							  
+							 </div>
+					     </div>
+					   </div>
+					   
+					   <table class="table table-striped table-hover">
+					      <thead>
+						     <tr>
+							 <th><span class="custom-checkbox">
+							 
+							 <th>No.</th>
+							 <th>Student Name</th>
+							 <th>class</th>
+							 <th>Result</th>
+							 <th>Score</th>
+							 <th>Grade</th>
+							 </tr>
+						  </thead>
+						  
+						  <tbody>
+						      <tr>
+							 <th>
+							
+							 <th>1</th>
+							 <th>Robert Fox</th>
+							 <th>8th</th>
+							 <th>passed</th>
+							 <th>78/100 </th>
+							 <th>Excellent</th>
+							 <th>
+							    <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+							   <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+							   </a>
+							   <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+							   <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+							   </a>
+							 </th>
+							 </tr>
+							 
+							 
+							  <tr>
+							 <th><span class="custom-checkbox">
+							 
+							 <th>2</th>
+							 <th>Ralph Edwards</th>
+							 <th>7th</th>
+							 <th>Failed</th>
+							 <th>20/100 </th>
+							 <th>poor</th>
+							 <th>
+							    <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+							   <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+							   </a>
+							   <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+							   <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+							   </a>
+							 </th>
+							
+							 
+							  <tr>
+							 <th><span class="custom-checkbox">
+						
+							 <th>3</th>
+							 <th>Esther Howard</th>
+							 <th>9th</th>
+							 <th>passed</th>
+							 <th>60/100 </th>
+							 <th>Average</th>
+							 <th>
+							    <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+							   <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+							   </a>
+							   <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+							   <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+							   </a>
+							 </th>
+							 </tr>
+							 <tr>
+								<th><span class="custom-checkbox">
+							
+								<th>4</th>
+								<th>Eleanor Pena</th>
+								<th>8th</th>
+								<th>passed</th>
+								<th>60/100 </th>
+								<th>Average</th>
+								<th>
+								   <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+								  <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+								  </a>
+								  <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+								  <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+								  </a>
+								</th>
+								</tr>
+								<tr>
+									<th><span class="custom-checkbox">
+								
+									<th>5</th>
+									<th>Arlene McCoy</th>
+									<th>7th</th>
+									<th>passed</th>
+									<th>85/100 </th>
+									<th>Excellent</th>
+									<th>
+									   <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+									  <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+									  </a>
+									  <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+									  <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+									  </a>
+									</th>
+									</tr>
+									<tr>
+										<th><span class="custom-checkbox">
+										
+										<th>6</th>
+										<th>Marvin Mckinney</th>
+										<th>9th</th>
+										<th>failed</th>
+										<th>25/100 </th>
+										<th>poor</th>
+										<th>
+										   <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+										  <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+										  </a>
+										  <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+										  <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+										  </a>
+										</th>
+										</tr>
+										<tr>
+											<th><span class="custom-checkbox">
+											
+											<th>7</th>
+											<th>WAde Warren</th>
+											<th>7th</th>
+											<th>passed</th>
+											<th>90/100 </th>
+											<th>Excellent</th>
+											<th>
+											   <a href="#editEmployeeModal" class="edit" data-toggle="modal">
+											  <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+											  </a>
+											  <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+											  <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+											  </a>
+											</th>
+											</tr>
+							 
+						  </tbody>
+						  
+					      
+					   </table>
+					   <div class="clearfix">
+						<div class="hint-text">showing <b>7</b> of <b>7</b></div>
+					  
+					  </div>
+					   </div>
+					</div>
+					
+					
+									   <!----add-modal start--------->
+		<div class="modal fade" tabindex="-1" id="addEmployeeModal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Student </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		    <label>Student Name</label>
+			<input type="text" class="form-control" required>
+		</div>
+		<div class="form-group">
+		    <label>class</label>
+			<input type="text" class="form-control" required>
+		</div>
+		<div class="form-group">
+		    <label>Score</label>
+			<textarea class="form-control" required></textarea>
+		</div>
+		<div class="form-group">
+		    <label>Result</label>
+			<input type="text" class="form-control" required>
+		</div>
+		<div class="form-group">
+		    <label>Grade</label>
+			<input type="text" class="form-control" required>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success">CONFIRM</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+					   <!----edit-modal end--------->
+					   
+					   
+					   
+					   
+					   
+				   <!----edit-modal start--------->
+		<div class="modal fade" tabindex="-1" id="editEmployeeModal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Student </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		    <label>STUDENT Name</label>
+			<input type="text" class="form-control" required>
+		</div>
+		<div class="form-group">
+		    <label>Class</label>
+			<input type="text" class="form-control" required>
+		</div>
+		<div class="form-group">
+		    <label>score</label>
+			<textarea class="form-control" required></textarea>
+		</div>
+		<div class="form-group">
+		    <label>Result</label>
+			<input type="number" class="form-control" required>
+		</div>
+		<div class="form-group">
+		    <label>Grade</label>
+			<input type="text" class="form-control" required>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success">CONFIRM</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+					   <!----edit-modal end--------->	   
+					   
+					   
+					 <!----delete-modal start--------->
+		<div class="modal fade" tabindex="-1" id="deleteEmployeeModal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Remove student</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to remove the current student from the list?</p>
+		<p class="text-warning"><small>Student Name<br>
+		Ralph Edwards</small></p><p class="text-warning"><small>Class <br>9th</small></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success">Remove</button>
+      </div>
+    </div>
+  </div>
+</div>
+		 
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+  
+  </body>
+  
+  </html>
+
+
